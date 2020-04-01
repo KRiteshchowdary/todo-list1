@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Todo from "./components/todo's_components/todo"
 import TodoEventAdder from "./components/todo's_components/todoEventAdder";
-import TodoEvents from "./components/todo's_components/todoEvents";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       </header>
       <Todo />
       <TodoEventAdder />
-      {/* <TodoEvents /> */}
     </div>
   );
 }

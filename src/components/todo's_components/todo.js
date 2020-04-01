@@ -3,7 +3,7 @@ import React from "react"
 function Todo(){
     return(
         <div className="todo-instructions">
-            <h1> to your todo list </h1>
+            <h1> Welcome to your TODO list </h1>
             <ul>
                 <li>Enter items to be done .</li>
                 <li>Check when completed .</li>
