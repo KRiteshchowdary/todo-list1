@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
-import Todo from "./components/todo's_components/todo"
 import TodoEventAdder from "./components/todo's_components/todoEventAdder";
+import styled from 'styled-components';
 
 function App() {
+
+  // const TodoEventAdder = styled.div`
+  // display: flex;
+  // flexWrap: wrap;
+  // width: 60%;
+  // backgroundColor: white;
+  // color: #4d4d4d;
+  // padding:20px;
+  // margin :auto;
+  //`
   return (
     <div>
-      <header className="App-header">
-        TODO LIST
-      </header>
-      <Todo />
+      <h1>todos</h1>
       <TodoEventAdder />
     </div>
   );
